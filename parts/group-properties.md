@@ -8,18 +8,12 @@ Query with address (house number) and postcode
 
 + Parameters
     + address: `Flat 9` (required, string) - Property's address
-    + postcode: `324A-B234` (required, string) - Property's postcode
+    + postcode: `IP19 0NS` (required, string) - Property's UK postcode
     + page: `1` (optional, string) - Pagination meta
 
-<!-- ### By Postcode & Radius [GET /properties/area{?postcode,radius,page}]
+### By Postcode & Radius [GET /properties/area{?postcode,radius,page}]
 Get a single note.
 
 + Parameters
-    + postcode: `324A-B234` (required, string) - Full property's postcode
-    + radius: `10` (optional, string) - Radius with center is property's postcode
-        + Members
-            + 10
-            + 20
-            + 30
-            + 50
-    + page: `1` (optional, string) - Pagination meta -->
+    + postcode: `IP19 0NS` (required, string) - Property's UK postcode
+    + page: `1` (optional, string) - Pagination meta
