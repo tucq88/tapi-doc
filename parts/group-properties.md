@@ -12,8 +12,9 @@ Query with address (house number) and postcode
     + page: `1` (optional, string) - Pagination meta
 
 ### By Postcode & Radius [GET /properties/area{?postcode,radius,page}]
-Get a single note.
+Get properties inside an area with postcode and radius (optional)
 
 + Parameters
     + postcode: `IP19 0NS` (required, string) - Property's UK postcode
+    + radius: `90` (optional, string) - Radius
     + page: `1` (optional, string) - Pagination meta
