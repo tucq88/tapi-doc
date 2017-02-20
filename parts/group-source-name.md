@@ -1,6 +1,6 @@
-# Group Experian CV
+# Group Source Name
 
-### Get Name [GET /experian/get-name{?uprn,showAll}]
+### Get Name [GET /sourcename/get-name{?uprn,showAll}]
 Get name by using `UPRN` as param. By default, only return primary contact records.
 
 + Parameters
